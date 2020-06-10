@@ -8,9 +8,9 @@ public class PlayerApp {
 		Player[] players = new Player[3];
 		for(int i = 0; i < players.length; i++) {
 			Player player = new Player();
-			System.out.println("�̸�: ");
+			System.out.println("이름: ");
 			player.setName(scanner.next());
-			System.out.println("���: ");
+			System.out.println("기록: ");
 			player.setRecord(scanner.nextInt());
 			players[i] = player;
 		}
