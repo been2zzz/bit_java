@@ -8,9 +8,9 @@ public class PlayerApp {
 		Player[] players = new Player[3];
 		for(int i = 0; i < players.length; i++) {
 			Player player = new Player();
-			System.out.println("ÀÌ¸§: ");
+			System.out.println("ï¿½Ì¸ï¿½: ");
 			player.setName(scanner.next());
-			System.out.println("±â·Ï: ");
+			System.out.println("ï¿½ï¿½ï¿½: ");
 			player.setRecord(scanner.nextInt());
 			players[i] = player;
 		}
@@ -31,6 +31,6 @@ public class PlayerApp {
 				ranking[0] = players[2];
 			}
 		}	
-		System.out.println("1µîÀº " + ranking[0].getName());
+		System.out.println("1ë“±ì€ " + ranking[0].getName());
 	}
 }
