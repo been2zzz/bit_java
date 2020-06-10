@@ -33,6 +33,6 @@ public class Shop {
 	}
 	
 	void printStates() {
-		System.out.println(name + "´Ô °áÁ¦ÇÏ½Ç ÃÑ ±İ¾×Àº " + sum + "¸¸¿øÀÔ´Ï´Ù.");
+		System.out.println(name + "ë‹˜ ê²°ì œ ê¸ˆì•¡ì€ " + sum + "ì…ë‹ˆë‹¤.");
 	}
 }
