@@ -16,7 +16,7 @@ public class Player {
 	public int getRecord() {
 		return this.record;
 	}
-	void printStates() {
+	public void showRecord() {
 		System.out.println("name: " + name + " , record: " + record);
 	}
 }
