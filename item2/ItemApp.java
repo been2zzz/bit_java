@@ -20,14 +20,14 @@ public class ItemApp {
 				System.out.println("가격: ");
 				item.setPrice(scanner.nextInt());
 				itemService.addCart(item);
-			break;
+				break;
 			case 2 : 
 				System.out.println("LIST");
 				Item[] list = itemService.list();
 				for(int i = 0; i < list.length; i++) {
 					System.out.println(list[i].toString());
 				}
-			break;
+				break;
 			default:
 				System.out.println("잘못된 메뉴 번호입니다.");
 			}
